@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://aaron8052.github.io/FengYan-Documentation/#/ -->
+<html lang="zh-cn" class="themeable"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>枫炎文档站</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <meta name="description" content="枫炎的个人文档站，网站收录了其本人及其游戏作品的相关内容">
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+    <link rel="icon" href="./枫炎文档站_files/Aaron8052.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./枫炎文档站_files/Aaron8052.png" type="image/x-icon">
+    
+    
+    <!-- https://jhildenbiddle.github.io/docsify-themeable/#/themes -->
+    <!-- Theme: Simple (light + dark) -->
+    <link rel="stylesheet" href="./枫炎文档站_files/light.css">
+    
+    <link rel="stylesheet" media="(prefers-color-scheme: light)" href="./枫炎文档站_files/theme-simple.css">
+    
+    <!-- https://jhildenbiddle.github.io/docsify-themeable/#/customization -->
+    <style media="(prefers-color-scheme: light)">
+
+        :root {
+            
+        }
+    </style>
+    
+    <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="./枫炎文档站_files/theme-simple-dark.css">
+
+    <style media="(prefers-color-scheme: dark)">
+        :root {
+            --base-background-color     : rgba(22, 22, 22, 1);
+            
+            --hr-border                 : 1px solid var(--heading-h1-border-color);
+            
+            --theme-color               : rgba(44, 156, 255, 1);
+            --theme-hue                 : 325;
+            --theme-lightness           : 45%;
+
+            --link-color                : var(--theme-color);
+
+            --table-row-odd-background  : var(--sidebar-background);
+
+            --code-inline-background    : var(--sidebar-border-color);
+            
+            --heading-h1-border-color   : rgba(77, 77, 77, 1);
+            --heading-h2-border-color   : var(--heading-h1-border-color);
+            --heading-h3-border-color   : var(--heading-h1-border-color);
+            --heading-h4-border-color   : var(--heading-h1-border-color);
+            --heading-h5-border-color   : var(--heading-h1-border-color);
+            --heading-h6-border-color   : var(--heading-h1-border-color);
+            
+            --blockquote-background     : var(--sidebar-background);
+
+            --navbar-menu-background    : var(--sidebar-border-color);
+            
+            --sidebar-background        : rgba(33, 33, 33, 1);
+            --sidebar-toggle-background : var(--sidebar-background);
+            --sidebar-border-color      : rgba(55, 55, 55, 1);
+
+            --search-input-background-color         : var(--sidebar-border-color);
+            --search-input-background-color--focus  : var(--sidebar-border-color);
+            --search-input-border-color             : rgba(55, 55, 55, 1);
+        }
+    </style>
+
+    <style>
+        nav.app-nav li ul {
+            min-width: 150px;
+        }
+        :root {
+            --base-font-size            : 16px;
+
+            --link-color                : var(--theme-color);
+
+            --sidebar-width             : 20rem;
+            
+            --table-body-border-color   : rgba(126, 126, 126, 0.22);
+            --table-head-border-color   : var(--table-body-border-color);
+            --table-head-border-width   : 0.1rem;
+            --table-body-border-width   : var(--table-head-border-width);
+            --table-cell-border-color   : var(--table-body-border-color);
+
+            --navbar-menu-link-color--hover    : var(--theme-color);
+            --navbar-menu-link-color--active : var(--theme-color);
+
+        }
+    </style>
+    
+    
+<script src="chrome-extension://opgifgeiehclfkpdfbeeibhcbgcgkpgf/dist/ruffle.js?id=36659652391"></script><style type="text/css">.medium-zoom-overlay{position:fixed;top:0;right:0;bottom:0;left:0;opacity:0;transition:opacity .3s;will-change:opacity}.medium-zoom--opened .medium-zoom-overlay{cursor:pointer;cursor:zoom-out;opacity:1}.medium-zoom-image{cursor:pointer;cursor:zoom-in;transition:transform .3s cubic-bezier(.2,0,.2,1)!important}.medium-zoom-image--hidden{visibility:hidden}.medium-zoom-image--opened{position:relative;cursor:pointer;cursor:zoom-out;will-change:transform}</style><style type="text/css">.docsify-copy-code-button,.docsify-copy-code-button span{cursor:pointer;transition:all .25s ease}.docsify-copy-code-button{position:absolute;z-index:1;top:0;right:0;overflow:visible;padding:.65em .8em;border:0;border-radius:0;outline:0;font-size:1em;background:grey;background:var(--theme-color,grey);color:#fff;opacity:0}.docsify-copy-code-button span{border-radius:3px;background:inherit;pointer-events:none}.docsify-copy-code-button .error,.docsify-copy-code-button .success{position:absolute;z-index:-100;top:50%;right:0;padding:.5em .65em;font-size:.825em;opacity:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.docsify-copy-code-button.error .error,.docsify-copy-code-button.success .success{right:100%;opacity:1;-webkit-transform:translate(-115%,-50%);transform:translate(-115%,-50%)}.docsify-copy-code-button:focus,pre:hover .docsify-copy-code-button{opacity:1}</style><style>
+.sidebar {
+  padding-top: 0;
+}
+
+.search {
+  margin-bottom: 20px;
+  padding: 6px;
+  border-bottom: 1px solid #eee;
+}
+
+.search .input-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.search .results-panel {
+  display: none;
+}
+
+.search .results-panel.show {
+  display: block;
+}
+
+.search input {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 0.6em 7px;
+  font-size: inherit;
+  border: 1px solid transparent;
+}
+
+.search input:focus {
+  box-shadow: 0 0 5px var(--theme-color, #42b983);
+  border: 1px solid var(--theme-color, #42b983);
+}
+
+.search input::-webkit-search-decoration,
+.search input::-webkit-search-cancel-button,
+.search input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.search input::-ms-clear {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+.search .clear-button {
+  cursor: pointer;
+  width: 36px;
+  text-align: right;
+  display: none;
+}
+
+.search .clear-button.show {
+  display: block;
+}
+
+.search .clear-button svg {
+  transform: scale(.5);
+}
+
+.search h2 {
+  font-size: 17px;
+  margin: 10px 0;
+}
+
+.search a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.search .matching-post {
+  border-bottom: 1px solid #eee;
+}
+
+.search .matching-post:last-child {
+  border-bottom: 0;
+}
+
+.search p {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.search p.empty {
+  text-align: center;
+}
+
+.app-name.hide, .sidebar-nav.hide {
+  display: none;
+}</style></head>
+
+<img class="safum-vpn-status" id="ehjolcpljogfgggnkddgefpecllepcba-img" src="chrome-extension://ehjolcpljogfgggnkddgefpecllepcba/web_accessible_resources/status_on.png" alt="status"><body data-platform="Win32" class="ready sticky ready-fix" data-page="home.md">
+    <nav class="app-nav no-badge"><ul><li><img src="./枫炎文档站_files/1f1e8-1f1f3.png" alt="cn" class="emoji" loading="lazy"> 简体中文<ul><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/" title="" class="active"><img src="./枫炎文档站_files/1f1e8-1f1f3.png" alt="cn" class="emoji" loading="lazy"> 简体中文</a></li><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/en/" title=""><img src="./枫炎文档站_files/1f1ec-1f1e7.png" alt="uk" class="emoji" loading="lazy"> English</a></li></ul></li></ul></nav><main><button class="sidebar-toggle" aria-label="Menu"><div class="sidebar-toggle-button"><span></span><span></span><span></span></div></button><aside class="sidebar"><div class="search"><div class="input-wrap">
+      <input type="search" value="" aria-label="Search text" placeholder="搜索文档">
+      <button class="clear-button" aria-label="Clear search">
+                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8" cy="8" r="8" fill="black"></circle>
+                    <path stroke="white" stroke-width="1.5" d="M4.5,4.5,11.5,11.5" vector-effect="non-scaling-stroke"></path>
+                    <path stroke="white" stroke-width="1.5" d="M4.5,11.5,11.5,4.5" vector-effect="non-scaling-stroke"></path>
+                </svg>
+            </button>
+    </div>
+    <div class="results-panel"></div>
+    </div><h1 class="app-name"><a class="app-name-link" data-nosearch="" href="https://aaron8052.github.io/FengYan-Documentation/#/">枫炎文档站</a></h1><div class="sidebar-nav"><ul><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/home" title="首页">首页</a><ul><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/home/github-page" title="枫炎Github介绍页">枫炎Github介绍页</a></li></ul></li><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/dlce-group" title="DL社区版交流基地">DL社区版交流基地</a><ul><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/dlce-group/beta-test" title="测试员招募">测试员招募</a></li><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/dlce-group/rules" title="群规">群规</a></li></ul></li><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/dlce" title="跳舞的线社区版（DLCE）">跳舞的线社区版（DLCE）</a><ul><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/dlce/eula" title="最终用户许可协议（EULA）">最终用户许可协议（EULA）</a></li><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/dlce/privacy" title="隐私政策">隐私政策</a></li><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/dlce/versions" title="版本历史">版本历史</a></li><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/dlce/localization" title="多语言系统">多语言系统</a></li><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/dlce/achievements" title="成就系统">成就系统</a></li><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/dlce/game-settings" title="游戏设置">游戏设置</a></li><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/dlce/game-center" title="Game Center">Game Center</a></li><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/dlce/level_information" title="关卡信息">关卡信息</a></li><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/dlce/custom_post_processing" title="自定义后期处理效果">自定义后期处理效果</a></li><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/dlce/key_mapping" title="键位映射">键位映射</a></li><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/dlce/commands" title="启动参数">启动参数</a></li><li><a href="https://aaron8052.github.io/FengYan-Documentation/#/dlce/game_launcher" title="启动器">启动器</a></li></ul></li></ul><hr>
+<p><a href="https://github.com/Aaron8052" target="_blank" rel="noopener" title=""><img src="./枫炎文档站_files/json" data-origin="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Fgithub%2FAaron8052&amp;query=count&amp;color=181717&amp;label=GitHub&amp;labelColor=282c34&amp;logo=github&amp;suffix=+follows&amp;cacheSeconds=3600" alt="GitHub"></a>
+<a href="https://afdian.net/@fengyanDL" target="_blank" rel="noopener" title=""><img src="./枫炎文档站_files/json(1)" data-origin="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Fafdian%2FfengyanDL&amp;query=count&amp;color=282c34&amp;label=%E7%88%B1%E5%8F%91%E7%94%B5&amp;labelColor=946ce6&amp;suffix=+%E5%8F%91%E7%94%B5%E4%BA%BA%E6%AC%A1+%2F+%E6%9C%88&amp;cacheSeconds=3600" alt="爱发电"></a></p></div></aside><section class="content"><aside class="toc-nav"><div class="page_toc"><div class="lv1 active"><a href="https://aaron8052.github.io/FengYan-Documentation/#/?id=%e6%9e%ab%e7%82%8e%e6%96%87%e6%a1%a3%e7%ab%99" data-id="枫炎文档站" class="anchor"><span>枫炎文档站</span></a></div><div class="lv2"><a href="https://aaron8052.github.io/FengYan-Documentation/#/?id=%e8%b5%84%e6%96%99" data-id="资料" class="anchor"><span>资料</span></a></div><div class="lv3"><a href="https://aaron8052.github.io/FengYan-Documentation/#/?id=%e6%8a%80%e8%83%bd" data-id="技能" class="anchor"><span>技能</span></a></div><div class="lv3"><a href="https://aaron8052.github.io/FengYan-Documentation/#/?id=%e7%a4%be%e4%ba%a4%e8%b4%a6%e5%8f%b7" data-id="社交账号" class="anchor"><span>社交账号</span></a></div><div class="lv2"><a href="https://aaron8052.github.io/FengYan-Documentation/#/?id=%e8%b5%9e%e5%8a%a9" data-id="赞助" class="anchor"><span>赞助</span></a></div></div></aside><article class="markdown-section" id="main"><h1 id="枫炎文档站"><a href="https://aaron8052.github.io/FengYan-Documentation/#/?id=%e6%9e%ab%e7%82%8e%e6%96%87%e6%a1%a3%e7%ab%99" data-id="枫炎文档站" class="anchor"><span>枫炎文档站</span></a></h1><blockquote>
+<p>该文档站包含了本人以及本人的游戏作品的相关文档。</p></blockquote>
+<img src="./枫炎文档站_files/Aaron8052.png" height="128" alt="【头像】" class="medium-zoom-image">
+
+
+<h2 id="资料"><a href="https://aaron8052.github.io/FengYan-Documentation/#/?id=%e8%b5%84%e6%96%99" data-id="资料" class="anchor"><span>资料</span></a></h2><h3 id="技能"><a href="https://aaron8052.github.io/FengYan-Documentation/#/?id=%e6%8a%80%e8%83%bd" data-id="技能" class="anchor"><span>技能</span></a></h3><p>💻 C#, Java, ShaderLab, Objective-C</p><h3 id="社交账号"><a href="https://aaron8052.github.io/FengYan-Documentation/#/?id=%e7%a4%be%e4%ba%a4%e8%b4%a6%e5%8f%b7" data-id="社交账号" class="anchor"><span>社交账号</span></a></h3><p><a href="https://qm.qq.com/cgi-bin/qm/qr?k=ZIlXes4G7DASySmhRJJUO-ua3GPzSHcW&amp;noverify=0&amp;personal_qrcode_source=1" target="_blank" rel="noopener"><img src="./枫炎文档站_files/03_qq_symbol-1-250x300.png" height="16" alt="【QQ】"> 2727336002</a></p><p><a href="https://space.bilibili.com/187016314" target="_blank" rel="noopener"><img src="./枫炎文档站_files/json(2)" data-origin="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Fbilibili%2F187016314&amp;query=count&amp;color=282c34&amp;label=%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%EF%BC%88%E5%A4%A7%E5%8F%B7%EF%BC%89&amp;labelColor=FE7398&amp;logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAD7ElEQVR4nO2dW9WrMBCFK6ESkFAJSKiESqgEHCABCZWAhEpAAhL2ecik5dDc%2FpXLBDLfWnlqy0xmJ5BMQnq5CIIgCIIgCIIgCIIgCEIBAHQAemYfrgCunD6wAKAHsEKxALgx+bCQD8%2FS9tmgVqeDr1lLigDgZvDhXso+K9TyTBQRwRJ8AHjntl0Flh5QRAQK%2FmKxPeayWx2OXpBNBKiHvi34b7T2MC4pAvW6twR%2FRwkRKPizBN8CgEcuESj4Lwm+BwBjahEk+H8EwJRKhOaCDzW8e1JLfkUUH1NgmR3XmHffHR1l+72BSs8d7w8U+JDAnZERQMcV+CtUi7dNqFqibB4J7vtrq7xKCuAasbTMXCL4T+5aVk6+2xHUrWdhruAR6HIJcOeu2UHI8zyAe2ytWfEdWz9PVvQ8YAmIQ5dDAB9LFsMVAv8oMO2zAGrC5WNIarRiAuKR9jYEd9pY08aa6uUzIHGRdkgKd8pY0yc1WjEBAqypDYoAG0QAZkQAZkQAZkQAZk4vANQenjsSzS3I%2FwcSbXU5jQBUkRtdf4Rar90v8kSv3+I3ffCCSpk8I%2Fw+lgDkdI%2Fv2rEp2CaiWm1AsDQLlDAD+dlFXLMeAaCSeLZdaSFE5VUQNot38cKuEeBgAsSuG0flVZBmEanbXfNQAsS0fgBYIn2fIu3%2FBBMHEyBmDXlFfA8IzeHb+Ems4WAChKykrVA9ZfsQTL57jXzRg4A5wC%2FA8N4ADiZAZwm2XjW75Qh2KOTfA0p4kygPw28OJcCVgn3nDnYo2EwEYRgGH0qAMyICMCMCMCMCMCMCMCMCMCMCfP3qwHDOQ4AAUekTk8FaBRihJnZdYbvtCGC7LvmkM63GjVDINPFrQgCq5ETXfmMzI90FXzPvfqt7x4rEu%2FZaEcCUxFvgz2zO+BUn6UkoaEEAsptiMSX5e8FoRYCN7cVgb4Vq7U%2FH50Pq4JNP7Qiw8UFnJwcK+tXy+Wj6PLEvPgHSHv5UgwA1IQIwwyFAyLJin9RoxYgAzAQIkPwNmf26busC+OIx5TDqo5nDT+F%2FSS%2F9CYzwb+No49zNy2evkYv0LywGGAXUvp6eSneycqOic0w20k7CNgKE7jJunSGLACTCxF27ylmQc98T5MQUH49swd+I0HPXslLKnT0N+wnkrTKi9JZL%2FL9i1SorMmdeQ4TQQ7OFMxIMzGD45w8nUL1im7efENZLJpgPSw0pfz0cdt4U3230Td%2FTvx2R6d2FrHhEWLkq5PELOMsRPHCPnAZGv1xJteL7jbJiaW3sB2nDvPC%2FosSYvjRQz4cJ6n7KO3rYQL7M+L6nVtfDVRAEQRAEQRAEQRAEIZ5%2FSAXmdfXaoQsAAAAASUVORK5CYII%3D&amp;suffix=+%E5%85%B3%E6%B3%A8&amp;cacheSeconds=3600" alt="哔哩哔哩"></a></p><p><a href="https://space.bilibili.com/524442697" target="_blank" rel="noopener"><img src="./枫炎文档站_files/json(3)" data-origin="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Fbilibili%2F524442697&amp;query=count&amp;color=282c34&amp;label=%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%EF%BC%88%E5%B0%8F%E5%8F%B7%EF%BC%89&amp;labelColor=FE7398&amp;logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAD7ElEQVR4nO2dW9WrMBCFK6ESkFAJSKiESqgEHCABCZWAhEpAAhL2ecik5dDc%2FpXLBDLfWnlqy0xmJ5BMQnq5CIIgCIIgCIIgCIIgCEIBAHQAemYfrgCunD6wAKAHsEKxALgx+bCQD8%2FS9tmgVqeDr1lLigDgZvDhXso+K9TyTBQRwRJ8AHjntl0Flh5QRAQK%2FmKxPeayWx2OXpBNBKiHvi34b7T2MC4pAvW6twR%2FRwkRKPizBN8CgEcuESj4Lwm+BwBjahEk+H8EwJRKhOaCDzW8e1JLfkUUH1NgmR3XmHffHR1l+72BSs8d7w8U+JDAnZERQMcV+CtUi7dNqFqibB4J7vtrq7xKCuAasbTMXCL4T+5aVk6+2xHUrWdhruAR6HIJcOeu2UHI8zyAe2ytWfEdWz9PVvQ8YAmIQ5dDAB9LFsMVAv8oMO2zAGrC5WNIarRiAuKR9jYEd9pY08aa6uUzIHGRdkgKd8pY0yc1WjEBAqypDYoAG0QAZkQAZkQAZkQAZk4vANQenjsSzS3I%2FwcSbXU5jQBUkRtdf4Rar90v8kSv3+I3ffCCSpk8I%2Fw+lgDkdI%2Fv2rEp2CaiWm1AsDQLlDAD+dlFXLMeAaCSeLZdaSFE5VUQNot38cKuEeBgAsSuG0flVZBmEanbXfNQAsS0fgBYIn2fIu3%2FBBMHEyBmDXlFfA8IzeHb+Ems4WAChKykrVA9ZfsQTL57jXzRg4A5wC%2FA8N4ADiZAZwm2XjW75Qh2KOTfA0p4kygPw28OJcCVgn3nDnYo2EwEYRgGH0qAMyICMCMCMCMCMCMCMCMCMCMCfP3qwHDOQ4AAUekTk8FaBRihJnZdYbvtCGC7LvmkM63GjVDINPFrQgCq5ETXfmMzI90FXzPvfqt7x4rEu%2FZaEcCUxFvgz2zO+BUn6UkoaEEAsptiMSX5e8FoRYCN7cVgb4Vq7U%2FH50Pq4JNP7Qiw8UFnJwcK+tXy+Wj6PLEvPgHSHv5UgwA1IQIwwyFAyLJin9RoxYgAzAQIkPwNmf26busC+OIx5TDqo5nDT+F%2FSS%2F9CYzwb+No49zNy2evkYv0LywGGAXUvp6eSneycqOic0w20k7CNgKE7jJunSGLACTCxF27ylmQc98T5MQUH49swd+I0HPXslLKnT0N+wnkrTKi9JZL%2FL9i1SorMmdeQ4TQQ7OFMxIMzGD45w8nUL1im7efENZLJpgPSw0pfz0cdt4U3230Td%2FTvx2R6d2FrHhEWLkq5PELOMsRPHCPnAZGv1xJteL7jbJiaW3sB2nDvPC%2FosSYvjRQz4cJ6n7KO3rYQL7M+L6nVtfDVRAEQRAEQRAEQRAEIZ5%2FSAXmdfXaoQsAAAAASUVORK5CYII%3D&amp;suffix=+%E5%85%B3%E6%B3%A8&amp;cacheSeconds=3600" alt="哔哩哔哩"></a></p><p><a href="https://gist.github.com/Aaron8052" target="_blank" rel="noopener"><img src="./枫炎文档站_files/json(4)" data-origin="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Fgithub%2FAaron8052&amp;query=count&amp;color=181717&amp;label=Gist%E5%8D%9A%E5%AE%A2&amp;labelColor=282c34&amp;logo=github&amp;suffix=+follows&amp;cacheSeconds=3600" alt="Gist"></a></p><p><a href="https://github.com/Aaron8052" target="_blank" rel="noopener"><img src="./枫炎文档站_files/json" data-origin="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Fgithub%2FAaron8052&amp;query=count&amp;color=181717&amp;label=GitHub&amp;labelColor=282c34&amp;logo=github&amp;suffix=+follows&amp;cacheSeconds=3600" alt="GitHub"></a></p><h2 id="赞助"><a href="https://aaron8052.github.io/FengYan-Documentation/#/?id=%e8%b5%9e%e5%8a%a9" data-id="赞助" class="anchor"><span>赞助</span></a></h2><p><a href="https://afdian.net/@fengyanDL" target="_blank" rel="noopener"><img src="./枫炎文档站_files/json(1)" data-origin="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Fafdian%2FfengyanDL&amp;query=count&amp;color=282c34&amp;label=%E7%88%B1%E5%8F%91%E7%94%B5&amp;labelColor=946ce6&amp;suffix=+%E5%8F%91%E7%94%B5%E4%BA%BA%E6%AC%A1+%2F+%E6%9C%88&amp;cacheSeconds=3600" alt="爱发电"></a></p><iframe src="./枫炎文档站_files/leaflet.html" width="640" scrolling="no" height="200" frameborder="0" data-ruffle-polyfilled=""></iframe>
+
+<!--
+## [赞助](https://afdian.net/a/fengyanDL)
+
+
+目前本人的所有iOS游戏均借用了MaxStudio的Apple开发者账号上架至iOS平台。
+然而，借用账号的方式是不可持续的。
+因此，我计划在一年内将我的游戏转移到我的个人开发者账号下。
+
+由于苹果公司规定，上架iOS平台需要每年向Apple支付¥688的费用，所以购买开发者账号需要一定的成本。
+
+因此我决定在这里发起一次众筹，用于支付上架iOS平台的费用。
+赞助所得的资金将全部用于支付开发者账号的费用和以及游戏开发等相关支出，不会用于个人用途。
+如果赞助的资金不足以支付上架iOS的费用，我将不得不下架所有iOS游戏。
+
+?> 本赞助并非强制性，赞助时请确保有经济能力。
+
+[前往爱发电赞助](https://afdian.net/a/fengyanDL) 
+-->
+
+</article></section></main>
+    <script>
+        window.$docsify = {
+            toc: {
+                tocMaxLevel: 5,
+                target: 'h1, h2, h3, h4, h5, h6',
+                ignoreHeaders:  ['<!-- {docsify-ignore} -->', '<!-- {docsify-ignore-all} -->']
+            },
+            alias :{
+               "/" : "/home",
+               "/en/" : "en/home",
+                
+               "/home" : "home.md",
+               "/en/home" : "en/home.md",
+                
+               "/home/github-page" : "https://raw.githubusercontent.com/Aaron8052/Aaron8052/main/README.md",
+                
+               "/dlce" : "/dlce/about.md",
+               "/dlce/font" : "/dlce/localization",
+               "/dlce/beta-test" : "/dlce-group/beta-test.md",
+               "/dlce-group" : "/dlce-group/about.md",
+               "/en/dlce" : "/en/dlce/about.md",
+                
+               "/404" : "/_404.md",
+               "/en/404" : "/en/_404.md",
+                
+               "/en" : "/en/",
+            },
+            name:'枫炎文档站',
+            nameLink: {
+                '/en': '#/en/',
+                '/': '#/',
+            },
+            //repo: 'https://github.com/Aaron8052',
+            homepage: 'home.md',
+            loadSidebar: true,
+            loadNavbar: true,
+            maxLevel: 1,
+            subMaxLevel: 0,
+            topMargin: 50,
+            notFoundPage:
+            {
+                "/": "/404",
+                "/en/": "/en/404",
+            },
+            //basePath: "/docs/",
+            //relativePath: true,
+            //mergeNavbar: true,
+            auto2top: true,
+            fallbackLanguages: ['/',"/en"],
+            search: {
+                maxAge: 86400000,
+                paths: 'auto',
+                placeholder: 
+                    {
+                        '/en' : 'Search Documentation',
+                        '/' : '搜索文档',
+                    },
+                noData:{
+                    '/en' : 'No Results',
+                    '/' : '找不到结果',
+                },
+                depth: 4,
+                hideOtherSidebarContent: true,
+                pathNamespaces: ['/', '/en'],
+                namespace: '/FengYan-Documentation',
+            }
+        }
+    </script>
+   
+    <script src="./枫炎文档站_files/toc.min.js.下载"></script>
+    <script src="./枫炎文档站_files/docsify.min.js.下载"></script>
+    <script src="./枫炎文档站_files/search.min.js.下载"></script>
+    <script src="./枫炎文档站_files/docsify-themeable.min.js.下载"></script>
+    <script src="./枫炎文档站_files/emoji.min.js.下载"></script>
+    <script src="./枫炎文档站_files/zoom-image.min.js.下载"></script>
+    <script src="./枫炎文档站_files/docsify-copy-code.min.js.下载"></script>
+
+
+
+<div class="progress" style="opacity: 0; width: 0%;"></div></body></html>
